@@ -1,0 +1,191 @@
+body{
+    background: #181818;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.logo{
+    margin-top: 100px;
+    width: 100%;
+    height: 101px;
+    background: #BC8366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-2{
+    width: 160px;
+    height: 160px;
+    background-color: #BC8366;
+    position: absolute;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 157px;
+    height: 161px;
+}
+
+.links{
+    width: 302px;
+
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin-top: 70px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+button {
+    width: 302px;
+    height: 60px;
+    margin-bottom: 18px;
+    border-radius: 20px;
+    background-color: #BC8366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+    /* outline: none; */
+}
+
+button:hover{
+    background-color: #ebbca4;
+}
+
+button:active {
+    background-color: #BC8366;
+
+  }
+
+button img {
+    margin-right: 8px;
+    width: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #BC8366;
+    border-radius: 15px;
+    
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #ebbca4;
+  }
+
+@media (max-width: 700px) {
+    h1{
+        font-size: 18px;
+    }
+    .logo{
+        margin-top: 90px;
+        height: 90px;
+    }
+    .logo-2{
+        width: 130px;
+        height: 130px;
+    }
+    .img {
+        width: 143px;
+        height: 140px;
+    }
+    button {
+        width: 290px;
+        height: 50px;
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    button img {
+        margin-right: 8px;
+        width: 18px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    h1{
+        font-size: 15px;
+    }
+    .logo{
+        margin-top: 80px;
+        height: 60px;
+    }
+    .logo-2{
+        width: 110px;
+        height: 110px;
+    }
+    .img {
+        width: 120px;
+        height: 118px;
+    }
+    button {
+        width: 280px;
+        height: 44px;
+        border-radius: 14px;
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    button img {
+        margin-right: 8px;
+        width: 16px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    h1{
+        font-size: 13px;
+    }
+    .logo{
+        margin-top: 60px;
+        height: 50px;
+    }
+    .logo-2{
+        width: 90px;
+        height: 90px;
+    }
+    .img {
+        width: 100px;
+        height: 97px;
+    }
+    button {
+        width: 230px;
+        height: 40px;
+        border-radius: 14px;
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    button img {
+        margin-right: 8px;
+        width: 16px;
+    }
+
+}
